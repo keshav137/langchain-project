@@ -1,0 +1,41 @@
+Day,Period,Class,Teacher
+Monday,1,Mathematics,David Kim
+Monday,2,Physical Education,Sophia Hernandez
+Monday,3,Chemistry,Jasmine Gomez
+Monday,4,English Language Arts,Miguel Rodriguez
+Monday,5,Economics,Samantha Lee
+Monday,6,Art,Carlos Lopez
+Monday,7,Physics,Isabella Garcia
+Monday,8,Foreign Language,Michael Johnson
+Tuesday,1,Physics,Carlos Lopez
+Tuesday,2,Chemistry,Emma Smith
+Tuesday,3,English Language Arts,Samantha Lee
+Tuesday,4,Mathematics,Ava Chen
+Tuesday,5,Art,Jasmine Gomez
+Tuesday,6,Foreign Language,Sophia Hernandez
+Tuesday,7,Economics,Michael Johnson
+Tuesday,8,Physical Education,David Kim
+Wednesday,1,English Language Arts,Isabella Garcia
+Wednesday,2,Mathematics,Sophia Hernandez
+Wednesday,3,Physical Education,Miguel Rodriguez
+Wednesday,4,Art,Ava Chen
+Wednesday,5,Physics,Carlos Lopez
+Wednesday,6,Chemistry,Emma Smith
+Wednesday,7,Foreign Language,Michael Johnson
+Wednesday,8,Economics,Jasmine Gomez
+Thursday,1,Foreign Language,Sophia Hernandez
+Thursday,2,Chemistry,Jasmine Gomez
+Thursday,3,Art,Carlos Lopez
+Thursday,4,Mathematics,David Kim
+Thursday,5,Physics,Isabella Garcia
+Thursday,6,English Language Arts,Emma Smith
+Thursday,7,Economics,Ava Chen
+Thursday,8,Physical Education,Samantha Lee
+Friday,1,Economics,Sophia Hernandez
+Friday,2,Physics,Isabella Garcia
+Friday,3,Mathematics,Jasmine Gomez
+Friday,4,Foreign Language,Carlos Lopez
+Friday,5,Physical Education,Samantha Lee
+Friday,6,Chemistry,David Kim
+Friday,7,English Language Arts,Emma Smith
+Friday,8,Art,Michael Johnson
