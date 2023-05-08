@@ -22,9 +22,11 @@ In the last 2 cell outputS you will see the resultS for the given prompt related
 You can edit the prompt to ask any other question related to pokemon stats, games or other information contained in the 4 pokemon files.
 
 ## Step 5 : Instructions to run prompts with your own data
-In your local instance of the git repo, add the 2 text files and the 2 csv files that will be used to create the langchain agent.
-In the `langchain_agent.ipynb`, update the 3rd cell to point to the correct file paths. Also add relevant file names and modify the description of the file.
-Ensure that the format of the file description is similar to the ones given for the pokemon files. Clcik on `Cell->Run All`.
+In your local instance of the git repo, under the data folder,add the 2 text files and the 2 csv files that will be used to create the langchain agent.
+In the `custom_langchain_agent.ipynb`, update the 4th cell to point to the correct file paths. Also add relevant file names for the added files.
+Add your open api key in the 2nd cell.
+
+Click on `Cell->Run All`.
 Modify the prompt in the last cell to a question related to the input files and run the cell.
 
 
