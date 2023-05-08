@@ -8,14 +8,14 @@ The 4 files will be related and the agent must able to find information across b
 
 ## High level Design
 
-# Data PreProcessing
+### Data PreProcessing
 
 Once the user inputs the file, I prompted Open AI to get more information related to the file, such as the file description which will be used as input for the langchain agents created for each file. The format of the description is as follows:
 'Useful for when you need to answer questions about (enter description here along with explanantion of columns headers with some example values). Input should be a fully formed question.'"
 
 I also got information from gpt-4 related to whether the contents of the a given text file are well structured and can be easily converted to a csv format. If an input text file contains structured data, it is converted to a csv file used as input for a csv agent, since its able parse a csv file much easier with high accuracy as compared to a text file.
 
-# Create Tools and initialize Master Agent
+### Create Tools and initialize Master Agent
 
 After the file data have been pre processed, I create an agent for each file. 
 For text files, a text chain is created which first splits the text data into chunks and creates open AI embeddings to be used as input for a Retrieval Question/Answering chain. This chain is capable of handling questions pertaining to the content in this file.
@@ -25,7 +25,7 @@ Now for each of these 4 agents, I create a corresponding "Tool" object. Each too
 
 All the 4 Tool objects are combined in a list and passed in as a parameter to initialize a master agent. The type of this agent is specified to be "zero-shot-react-description", which means that this agent will use the ReAct framework to determine which tool to use based solely on the tool's description. This type of agent supports any number of tools as long as they have a clear description associated with it. To learn more agent types, check out https://python.langchain.com/en/latest/modules/agents/agents/agent_types.html.
 
-# Run Queries
+### Run Queries
 
 After the master agent has been initialized, you can now prompt it with queries related to deriving information from one or more input files.
 An example query looks like the following: 
